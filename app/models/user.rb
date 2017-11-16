@@ -19,7 +19,7 @@ class User < ApplicationRecord
       when admin?
         Admin.new
       when business?
-        #Business.new
+        Business.new
       end
   end
 end
