@@ -17,7 +17,7 @@ class User < ApplicationRecord
       when personal?
         Personal.new
       when admin?
-        #Admin.new
+        Admin.new
       when business?
         #Business.new
       end
