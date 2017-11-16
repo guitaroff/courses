@@ -1,0 +1,25 @@
+'~/.gitignore_global'
+
+# Ignore bundler config.
+/.bundle
+
+
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+/config/database.yml
+/config/secrets.yml
+/config//db/seeds.rb
+/public/uploads
+/.idea/
+.byebug_history
+
+*.swp
+*.swo
+*.swn
+doc/
